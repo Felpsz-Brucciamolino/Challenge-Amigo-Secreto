@@ -1,5 +1,4 @@
 // Criando as variáveis básicas do meu programa
-let nome_sorteado = "";
 let lista_nomes = [];
 
 
@@ -17,7 +16,8 @@ document.querySelector("#amigo").value == undefined){
             let nome = document.querySelector("#amigo").value;
             lista_nomes.push(nome);
             console.log(lista_nomes);
-            mostrar_lista_nomes()
+            mostrar_lista_nomes();
+            document.querySelector("#amigo").value = "";
         }
     }
 }
@@ -26,19 +26,19 @@ document.querySelector("#amigo").value == undefined){
 
 // Função para sortear UM amigo entre TODOS o nomes que o usuário colocou
 function sortear_amigo() {
-    nome_sorteado = parseInt(Math.random() * lista_nomes.length)
-    alert(lista_nomes[nome_sorteado]);
+    let nome_sorteado = parseInt(Math.random() * lista_nomes.length)
+    nome_sorteado = document.querySelector("#result-list");
 }
 
 
 
 function mostrar_lista_nomes() {
     let ul = document.querySelector("#listaAmigos");
-    ul.innerHTML = "";
-
+    ul.innerHTML = ""; // depois de me humilhar para pedir ajuda à IA, descobri que precisava disso para não duplicar os nomes
     lista_nomes.forEach(function(nome) {
-        let listaa = document.createElement("listaa");
-        listaa.textContent = nome;
-        ul.appendChild(listaa);
+        let li = document.createElement("li");
+        li.textContent = nome;
+        ul.appendChild(li);
     });
 }
+
