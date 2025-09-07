@@ -1,19 +1,44 @@
-// Comecei com essa função que mostra o amigo sorteado.
-function Mostrar_Amigo_Secreto() {
-    document.getElementsByClassName("resultado")[0].innerHTML = "Seu amigo secreto é: Fulano";
+// Criando as variáveis básicas do meu programa
+let nome_sorteado = "";
+let lista_nomes = [];
+
+
+
+// Comecei por aqui, fazendo com que ao escrever um nome (válido) e clicar no botão "adicionar"
+// O nome escrito pelo usuário seja adicionado na lista "lista_nomes"
+function adicionar_amigo() {
+    if(document.querySelector("#amigo").value == "" || document.querySelector("#amigo").value == null || 
+document.querySelector("#amigo").value == undefined){
+        alert("Nome inválido, digite um nome válido ^^")
+    } else{
+        if (lista_nomes.includes(document.querySelector("#amigo").value)) {
+            alert("Esse nome já está na lista \ntente variar ^^")
+        } else {
+            let nome = document.querySelector("#amigo").value;
+            lista_nomes.push(nome);
+            console.log(lista_nomes);
+            mostrar_lista_nomes()
+        }
+    }
 }
 
 
-// função que sorteia o amigo secreto
-function sorteador_amigo(nome) {
-    const amigos = ["Fulano", "Ciclano", "Beltrano", "Maria", "João"];
-    const amigo_secreto = amigos[Math.floor(Math.random() * amigos.length)];
-    document.getElementsByClassName("resultado")[0].innerHTML = "Seu amigo secreto é: " + amigo_secreto;
+
+// Função para sortear UM amigo entre TODOS o nomes que o usuário colocou
+function sortear_amigo() {
+    nome_sorteado = parseInt(Math.random() * lista_nomes.length)
+    alert(lista_nomes[nome_sorteado]);
 }
 
 
-// função para funcionar o botão
-function sortear() {
-    const nome = document.getElementsByClassName("nome")[0].value;
-    sorteador_amigo(nome);
+
+function mostrar_lista_nomes() {
+    let ul = document.querySelector("#listaAmigos");
+    ul.innerHTML = "";
+
+    lista_nomes.forEach(function(nome) {
+        let listaa = document.createElement("listaa");
+        listaa.textContent = nome;
+        ul.appendChild(listaa);
+    });
 }
