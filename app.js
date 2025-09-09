@@ -24,21 +24,21 @@ document.querySelector("#amigo").value == undefined){
 
 
 
-// Função para sortear UM amigo entre TODOS o nomes que o usuário colocou
+// Função para sortear UM amigo entre TODOS o nomes que o usuário colocou 
+// E mostrar o nome sorteado da lista "lista_nomes"
 function sortear_amigo() {
-    let nome_sorteado = parseInt(Math.random() * lista_nomes.length)
-    nome_sorteado = document.querySelector("#result-list");
+    let escolhido = parseInt(Math.random() * lista_nomes.length)
+    alert(`Seu amigo sorteado é ${lista_nomes[escolhido]}`);
 }
 
 
 
 function mostrar_lista_nomes() {
     let ul = document.querySelector("#listaAmigos");
-    ul.innerHTML = ""; // depois de me humilhar para pedir ajuda à IA, descobri que precisava disso para não duplicar os nomes
+    ul.innerHTML = ""; // depois de me humilhar e pedir ajuda à IA, descobri que precisava disso para não duplicar os nomes
     lista_nomes.forEach(function(nome) {
         let li = document.createElement("li");
         li.textContent = nome;
         ul.appendChild(li);
     });
 }
-
