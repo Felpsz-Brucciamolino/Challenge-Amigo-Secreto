@@ -27,18 +27,23 @@ document.querySelector("#amigo").value == undefined){
 // Função para sortear UM amigo entre TODOS o nomes que o usuário colocou 
 // E mostrar o nome sorteado da lista "lista_nomes"
 function sortear_amigo() {
-    let escolhido = parseInt(Math.random() * lista_nomes.length)
-    alert(`Seu amigo sorteado é ${lista_nomes[escolhido]}`);
-}
+    if (lista_nomes.length === 0) {
+        alert("Por favor, insira um nome.");
+        return;
+      }
+
+      let escolhido = Math.floor(Math.random() * lista_nomes.length);
+      resultado.textContent = `🎉 Seu amigo sorteado é: ${lista_nomes[escolhido]}!`;
+    }
 
 
 
 function mostrar_lista_nomes() {
-    let ul = document.querySelector("#listaAmigos");
-    ul.innerHTML = ""; // depois de me humilhar e pedir ajuda à IA, descobri que precisava disso para não duplicar os nomes
+    let lista = document.querySelector("#listaAmigos");
+    lista.innerHTML = "";
     lista_nomes.forEach(function(nome) {
         let li = document.createElement("li");
         li.textContent = nome;
-        ul.appendChild(li);
+        lista.appendChild(li);
     });
 }
