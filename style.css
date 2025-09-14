@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
+    --color-primary: #000000;
+    --color-secondary: #DDE6E4;
     --color-tertiary: #C4C4C4;
-    --color-button: #00cc11;
-    --color-button-hover: #00cc11;
+    --color-button: #3E4C59;
+    --color-button-hover: #8A7E72;
     --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-white: #E5DCC5;
 }
 
 /* Estilos gerais */
@@ -136,7 +136,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #C19A6B;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -159,4 +159,11 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+
+.pedro_pedro_pedro {
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
 }
