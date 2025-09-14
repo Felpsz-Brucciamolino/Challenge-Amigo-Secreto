@@ -32,8 +32,9 @@ function sortear_amigo() {
         return;
       }
 
-      let escolhido = Math.floor(Math.random() * lista_nomes.length);
-      resultado.textContent = `🎉 Seu amigo sorteado é: ${lista_nomes[escolhido]}!`;
+    let escolhido = Math.floor(Math.random() * lista_nomes.length);
+    resultado.textContent = `🎉 Seu amigo sorteado é: ${lista_nomes[escolhido]}!`;
+    document.querySelector("#listaAmigos").innerHTML = ""
     }
 
 
