@@ -1,6 +1,3 @@
-🎁 Sorteador de Amigo Secreto
-
-Um projeto interativo de sorteio de nomes desenvolvido com HTML, CSS e JavaScript puro. Ideal para festas, brincadeiras de amigo secreto ou apenas como uma forma divertida de estudar manipulação de DOM, eventos e lógica com JavaScript.
 
 📸 Prévia
 
@@ -45,53 +42,65 @@ Interaja com a interface: adicione nomes, sorteie e explore a música secreta.
 
 🌈 Tecnologias Utilizadas
 
-HTML5 – Estrutura semântica da página
 
-CSS3 – Estilização moderna com variáveis e flexbox
 
-JavaScript (Vanilla) – Manipulação do DOM, eventos, lógica de sorteio
 
-Google Fonts – Fontes Inter e Merriweather para uma tipografia agradável
 
-Mídias interativas – Uso de imagem .gif e áudio .mp3
+<h6 align="center">este "readme" foi criado usando IA pelo fato do criador do projeto nunca ter criado um readme</h6>
 
-🧠 Conceitos Envolvidos
+<h1 align="center">🎯 Challenge Amigo Secreto (ONE)</h1>
 
-Validação de entrada (evitar valores vazios/duplicados)
+<h2 align="center">
+ 	:construction:  Projeto em construção  :construction:  Projeto em construção  :construction:  Projeto em construção  :construction:
+</h2>
 
-Manipulação de listas com JavaScript (push, includes, forEach)
+---
 
-Eventos de clique com addEventListener e onclick
+## 📌 Sobre o projeto
+Projeto desenvolvido para o primeiro Challenge do programa ONE (Oracle Next Education) pela Alura.
+O projeto é sobre um site para sorteio de nomes escritos pelo usuário, onde o usuário pode adicionar nomes ilimitados (sem repetir) e ao clicar no botão "sortear amigo" o site escolhe 1 nome entre todos da lista
 
-Manipulação do DOM com querySelector e innerHTML
+## 🎮 Como jogar
+1. Insira um número no campo de entrada.
+2. Clique no botão **Chutar**.
+3. Receba feedback se o número é **maior** ou **menor** que o secreto.
+4. Tente adivinhar antes que as **5 vidas** acabem.
+5. Use o botão **Reiniciar** para começar um novo jogo.
+6. (Opcional) Clique no botão **Cheat** se quiser trapacear. 😏
 
-Interação com elementos de mídia (<audio>)
+---
 
-Uso de variáveis CSS (:root) e responsividade com Flexbox
+## 🛠️ Tecnologias utilizadas
+- **HTML5** – Estrutura semântica da página
+- **CSS3** – Estilização moderna com variáveis e flexbox
+- **JavaScript (Vanilla)** – Manipulação do DOM, eventos, lógica de sorteio
+- **Google Fonts** – Fontes Inter e Merriweather para uma tipografia agradável
+- **Mídias interativas** – Uso de imagem .gif e áudio .mp3
 
-✨ Melhorias Futuras (Sugestões)
+---
 
- Adicionar tema escuro/claro
+💡 Recursos especiais
+- Botáo para limpeza da lista, para um novo sorteio sem precisar dar um F5 chato
+- Qualquer caractere pode ser inserido, o importante é ter ao menos 1 caractere -_-
+- Número ilimitado de adições na lista de amigos
+- Um guaxinim que fica girando
+- "Easter egg" (dica: nome do guaxinim)
 
- Permitir sorteios sem repetição até que todos tenham sido sorteados
+---
 
- Salvar nomes via localStorage
+## 📷 Demonstração
+*(Adicione aqui uma captura de tela ou GIF do jogo)*  
+![Jogo do Número Secreto](./screenshot.png)
 
- Permitir exportar a lista de sorteados
+---
 
- Implementar sorteio entre duplas (para pares de amigo secreto)
+## 🚀 Executando localmente
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
 
-👨‍💻 Autor
 
-Feito com carinho por [Seu Nome Aqui] ✨
-Esse projeto foi criado para praticar JavaScript e criar algo divertido com interatividade real.
 
-📢 Publicar com GitHub Pages (Opcional)
 
-Faça push do projeto para um repositório no GitHub.
 
-Vá até Settings > Pages.
 
-Em "Source", selecione main e depois /root.
-
-Pronto! Seu projeto estará publicado em https://seunome.github.io/projeto-amigo-secreto
