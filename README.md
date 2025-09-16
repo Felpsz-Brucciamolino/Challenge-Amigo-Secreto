@@ -50,4 +50,4 @@ Projeto desenvolvido para o primeiro Challenge do programa ONE (Oracle Next Educ
 
 ## 📷 Demonstração
 
-![Demonstração do Projeto](assets/demonstracao.mp4)
+![Demonstração do Projeto](assets/demonstracao.png)
