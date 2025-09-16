@@ -1,6 +1,6 @@
 <h6 align="center">Este README foi criado com a ajuda de uma IA, pois o criador ainda está aprendendo a criar documentos README</h6>
 
-<h1 align="center">🎯 Challenge Amigo Secreto (ONE)</h1>
+<h1 align="center">🤫 Challenge Amigo Secreto 🤫(ONE)</h1>
 
 ---
 
