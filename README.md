@@ -56,3 +56,64 @@ O projeto é sobre um site para sorteio de nomes escritos pelo usuário, onde o 
 
 
 
+<h6 align="center">Este README foi criado com a ajuda de uma IA, pois o criador ainda está aprendendo a criar documentações 😅</h6>
+
+<h1 align="center">🎯 Challenge Amigo Secreto (ONE)</h1>
+
+<h2 align="center">
+  🚧 Projeto em construção 🚧
+</h2>
+
+---
+
+## 📌 Sobre o projeto
+
+Este projeto foi desenvolvido como parte do primeiro Challenge do programa **ONE - Oracle Next Education**, oferecido pela Alura.
+
+A proposta é construir um site que permita ao usuário:
+
+- Adicionar nomes a uma lista (sem repetições)
+- Sortear aleatoriamente **um amigo secreto** a partir da lista
+- Exibir os nomes adicionados
+- Limpar a lista com um clique
+- (E ainda tem uma surpresa musical se você digitar um nome específico... 👀)
+
+---
+
+## 🎮 Como usar
+
+1. Digite o nome de um amigo no campo de entrada.
+2. Clique no botão **Adicionar** para incluí-lo na lista.
+3. Quando quiser, clique em **Sortear amigo** para escolher um nome aleatório.
+4. Use o botão **Limpar lista** para remover todos os nomes e recomeçar.
+5. (Easter egg: digite o nome "**Pedro**" e descubra... 🎵)
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- **HTML5** – Estrutura da interface
+- **CSS3** – Estilização com variáveis, responsividade e Flexbox
+- **JavaScript (Vanilla)** – Lógica de sorteio, manipulação do DOM, interações
+- **Google Fonts** – Tipografia moderna com as fontes *Inter* e *Merriweather*
+- **Mídias** – Uso de imagem `.gif` e áudio `.mp3` para uma experiência divertida
+
+---
+
+## 💡 Recursos especiais
+
+- ✅ Lista dinâmica de nomes
+- ✅ Validação para evitar nomes vazios ou repetidos
+- ✅ Sorteio aleatório de um nome
+- ✅ Botão para **limpar a lista** sem precisar recarregar a página
+- ✅ **Guaxinim girando** como mascote do projeto 🦝
+- ✅ Easter egg com música se o nome "Pedro" for adicionado 🎶
+
+---
+
+## 📷 Demonstração
+
+*(Adicione aqui uma imagem ou GIF do site rodando)*
+
+```markdown
+![Demonstração do projeto](./assets/screenshot.png)
