@@ -1,17 +1,14 @@
-<h6 align="center">Este README foi criado com a ajuda de uma IA, pois o criador ainda está aprendendo a criar documentações 😅</h6>
+<h6 align="center">Este README foi criado com a ajuda de uma IA, pois o criador ainda está aprendendo a criar documentações</h6>
 
 <h1 align="center">🎯 Challenge Amigo Secreto (ONE)</h1>
-
-<h2 align="center">
-  🚧 Projeto em construção 🚧
-</h2>
 
 ---
 
 ## 📌 Sobre o projeto
 
-Projeto desenvolvido para o primeiro Challenge do programa ONE (Oracle Next Education) pela Alura.
-A proposta do site:
+Projeto desenvolvido para o primeiro Challenge do programa ONE (Oracle Next Education) oferecido pela Alura.
+
+  Proposta do projeto:
 
 - Adicionar nomes a uma lista (sem repetições)
 - Sortear aleatoriamente **um amigo secreto** a partir da lista
@@ -21,7 +18,7 @@ A proposta do site:
 
 ---
 
-## 🎮 Como usar
+## 🧑‍💻 Como usar
 
 1. Digite o nome de um amigo no campo de entrada.
 2. Clique no botão **Adicionar** para incluí-lo na lista.
