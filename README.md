@@ -1,4 +1,4 @@
-<h6 align="center">Este README foi criado com a ajuda de uma IA, pois o criador ainda está aprendendo a criar documentações</h6>
+<h6 align="center">Este README foi criado com a ajuda de uma IA, pois o criador ainda está aprendendo a criar documentos README</h6>
 
 <h1 align="center">🎯 Challenge Amigo Secreto (ONE)</h1>
 
@@ -50,7 +50,5 @@ Projeto desenvolvido para o primeiro Challenge do programa ONE (Oracle Next Educ
 
 ## 📷 Demonstração
 
-*(Adicione aqui uma imagem ou GIF do site rodando)*
-
 ```markdown
-![Demonstração do projeto](./assets/screenshot.png)
+![Demonstração do Projeto](assets/demonstracao.mp4)
