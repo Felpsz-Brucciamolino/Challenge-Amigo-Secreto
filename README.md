@@ -18,6 +18,13 @@ Projeto desenvolvido para o primeiro Challenge do programa ONE (Oracle Next Educ
 
 ---
 
+🧾 Licença
+
+Este projeto foi desenvolvido para fins educacionais e pessoais.
+Sinta-se à vontade para estudar, modificar e adaptar como quiser.
+
+---
+
 ## 🧑‍💻 Como usar
 
 1. Digite o nome de um amigo no campo de entrada.
@@ -48,10 +55,22 @@ Projeto desenvolvido para o primeiro Challenge do programa ONE (Oracle Next Educ
 
 ---
 
-## 📷 Demonstração
+## 🖥️ UTILIZANDO EM SEU COMPUTADOR
 
-![Demonstração do Projeto](assets/demonstracao.png)
-![Demonstração do Projeto](assets/demonstracao(2).png)
-![Demonstração do Projeto](assets/demonstracao(3).png)
-![Demonstração do Projeto](assets/demonstracao(4).png)
-![Demonstração do Projeto](assets/demonstracao(5).png)
+1. Clone o repositório:
+   ```bash
+   git clone git@github.com:Felpsz-Brucciamolino/Challenge-Amigo-Secreto.git
+
+2. Acesse a pasta do projeto:
+    ```bash
+    cd Challenge-Amigo-Secreto
+
+3. Abra o arquivo index.html no seu navegador.
+  💡 Este projeto não requer nenhum tipo de instalação — apenas abra o arquivo HTML pelo navegador de sua escolha.
+
+
+---
+
+## 📷 Demonstração do PROJETO
+
+<p align="center"> <img src="assets/demonstracao.png" width="500"/> <img src="assets/demonstracao(2).png" width="500"/> <img src="assets/demonstracao(3).png" width="500"/> <img src="assets/demonstracao(4).png" width="500"/> <img src="assets/demonstracao(5).png" width="500"/> </p>
