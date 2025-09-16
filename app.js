@@ -11,10 +11,10 @@ function adicionar_amigo() {
         alert("Nome inválido!!\nDigite um nome válido para poder adicioná-lo na lista ^^")
     }   else{
         if(document.querySelector("#amigo").value == ""){
-            alert ("!!!!! Campo vazio !!!!!")
+            alert ("!! Campo vazio !!\nInsira um nome para adicionar à lista")
         } else{
             if (lista_nomes.includes(document.querySelector("#amigo").value)) {
-            alert("Esse nome já está na lista \ntente variar ^^");
+            alert("Esse nome já está na lista \nPor que não variar um pouco?");
             } else{
                 pedro_pedro_pedro();
                 let nome = document.querySelector("#amigo").value;
@@ -31,7 +31,7 @@ function adicionar_amigo() {
 // E mostrar o nome sorteado da lista "lista_nomes"
 function sortear_amigo() {
     if (lista_nomes.length === 0) {
-        alert("Por favor, insira um nome\npara fazer um sorteio.");
+        alert("Adicione mais nomes à lista para fazer um sorteio.");
         return;
       }
 
